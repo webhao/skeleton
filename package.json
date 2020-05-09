@@ -1,0 +1,79 @@
+{
+  "_from": "@mfw/draw-page-structure",
+  "_id": "@mfw/draw-page-structure@0.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-5W1aKhtrYa+W59Qqq2HSYR47GsWQhr/e2Tfo5AlD4RK82LKlI7UGb4krGvN3dGT3misXbN/WDYELXj+lXeEeVA==",
+  "_location": "/@mfw/draw-page-structure",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@mfw/draw-page-structure",
+    "name": "@mfw/draw-page-structure",
+    "escapedName": "@mfw%2fdraw-page-structure",
+    "scope": "@mfw",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "http://npm.mfwdev.com/@mfw%2fdraw-page-structure/-/draw-page-structure-0.1.3.tgz",
+  "_shasum": "81c0d8abd6b08c7cee3c4ec2b7b258649dfc9bf4",
+  "_spec": "@mfw/draw-page-structure",
+  "_where": "/Users/mfw",
+  "app": {
+    "alias": "dps"
+  },
+  "author": {
+    "name": "sunhaonan,leekang"
+  },
+  "bin": {
+    "dps": "./bin/dps.js"
+  },
+  "bugs": {
+    "url": "https://github.com/famanoder/dps/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.18.0",
+    "node-emoji": "^1.8.1",
+    "ora": "^3.0.0",
+    "prompts": "^1.1.0",
+    "puppeteer": "^1.7.0"
+  },
+  "deprecated": false,
+  "description": "骨架屏生成方案",
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "husky": "^1.3.1"
+  },
+  "homepage": "https://github.com/famanoder/DrawPageStructure#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "node ./node_modules/@commitlint/cli/lib/cli.js -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [
+    "nutui",
+    "skeleton screen",
+    "skeleton",
+    "loading",
+    "prerender"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "@mfw/draw-page-structure",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/famanoder/dps.git"
+  },
+  "scripts": {
+    "start": "node ./bin/dps.js start"
+  },
+  "version": "0.1.3"
+}
